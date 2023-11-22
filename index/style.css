@@ -1,0 +1,101 @@
+* {
+    padding: 0pt;
+    margin: 0pt;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080808;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
+}
+
+.calculator>.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container h1 {
+    color: white;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.btn-plus {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: #00a550;
+    border: none;
+    color: #fff;
+}
+
+.btn-minus {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 40px;
+    background-color: #e82e2e;
+    border: none;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    height: 30px;
+    margin-top: 10px;
+    color: #eee;
+    font-size: 18px;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+.result-box {
+    background-color: #fff;
+
+}
+
+.btn-result{
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    height: 30px;
+    margin: 10px 0px;
+    color: #eee;
+    font-size: 18px;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}

@@ -1,0 +1,64 @@
+* {
+    padding: 0pt;
+    margin: 0pt;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #080808;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.to-do-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
+}
+
+.to-do-list > .container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.to-do-listForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #fff;
+}
+
+.list-group-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.btn-success{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-delete{
+    width: 20px;
+    height: 20px;
+}
