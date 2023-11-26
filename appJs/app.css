@@ -6,9 +6,7 @@
     list-style: none;
 }
 
-body {
-    background-color: #080808;
-}
+
 
 main {
     height: 100vh;
@@ -41,9 +39,6 @@ main {
     flex-direction: column;
 }
 
-h1{
-    color: #fff;
-}
 
 .list-group-item{
     display: flex;
@@ -61,4 +56,13 @@ h1{
 .btn-delete{
     width: 20px;
     height: 20px;
+}
+
+
+.textLine{
+    text-decoration: line-through;
+}
+
+.btn-warning{
+   background-color: yellow;
 }
